@@ -1,0 +1,57 @@
+.navbar-default{
+    background-color: white;
+    border-radius: none;
+
+}
+
+#new-bottone{
+    background-color: #00d7d2;
+    border-radius: 5px;
+    color: #031b4e;
+    font-size: 12px;
+    line-height: 1;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+#sinistra{
+    float: left;
+    margin-top: 13px;
+}
+
+#docs-lista{
+    float: right;
+}
+
+#prima-sbarra{
+    min-height:40px;
+}
+
+#testo-linkabile{
+    color: #5b6987;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+#testo-linkabile:hover{
+    color: #0069ff;
+}
+
+#docs-lista li{
+    margin-right: 30px;
+    margin-top: 13px;
+    color:#5b6987;
+    list-style: none;
+}
+
+#docs-lista li a:hover{
+    color: #5b6987;
+}
+
+#logo-digital{
+    height: 25px;
+    width: 30px;
+    float: left;
+}
