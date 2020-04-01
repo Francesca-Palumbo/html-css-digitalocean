@@ -104,3 +104,122 @@
     background-color: #0069ff;
     color: white;
 }
+
+@media screen and ( max-width: 1050px) {
+    #seconda-barra {
+        display: none;
+    }
+    .deve-sparire{
+        display: none;
+    }
+}
+
+@media screen and ( min-width: 1049px){
+    #sezione-nascosta{
+        visibility: visible;
+    }
+}
+
+#sezione-con-sfondoblu{
+    height: 1035px;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+#sezione-nascosta{
+    height: 110px;
+}
+
+#logo-bianco{
+    width: 40px;
+    padding-top: 70px;
+    float: left;
+    border-radius: 6px;
+}
+
+#scritta-bianco{
+    color: white;
+    font-size: 20px;
+    padding-top: 75px;
+    padding-left: 10px;
+    float: left;
+}
+
+div.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+#hamburger-menu{
+    float: right;
+    padding-top: 65px;
+}
+
+#titolo-large{
+    color: white;
+    font-size: 40px;
+    width: 576px;
+}
+
+@media screen and (min-width: 1000px){
+    #titolo-large{
+    font-size: 64px;
+    }
+}
+
+#paragrafo{
+    color: #fff;
+    opacity: .8;
+    font-size: 24px;
+}
+
+#titolo-form-insieme{
+    padding-top: 100px;
+    padding-right: 30px;
+}
+
+#solo-distanza{
+    padding-left: 100px;
+}
+
+#sezione-form{
+    width: 478px;
+    height: 540px;
+    background-color: white;
+    padding: 32px;
+}
+
+@media screen and (max-width: 1049px){
+    #sezione-form{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #sezione-form{
+        width:310px;
+    }
+}
+
+#titolo-bold{
+    color: #031b4e;
+    padding-bottom: 26px;
+}
+
+.form-control-mie {
+    display: block;
+    max-width: 100%;
+    width: 100%
+    height: 48px;
+    padding: 0px 16px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:rgba(3,27,78,.7);
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
+}
