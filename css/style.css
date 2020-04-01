@@ -41,18 +41,18 @@
 #docs-lista li{
     margin-right: 30px;
     margin-top: 13px;
-    color:#5b6987;
     list-style: none;
 }
 
-#docs-lista li a:hover{
+#docs-lista li a{
     color: #5b6987;
 }
 
 #logo-digital{
-    height: 48px;
-    width: 189px;
+    height: 51px;
+    width: 195px;
     float: left;
+    padding-bottom: 23px;
 }
 
 #seconda-barra{
@@ -64,5 +64,43 @@
 }
 
 #barra-logo-ocean{
+    margin-left: 14px;
+    margin-right: 0;
+}
+
+#bs-example-navbar-collapse-1{
     margin-left: 0;
+    width: 1340px;
+}
+
+#seconda-barra .navbar-nav>li>a {
+    color:#5b6987 ;
+}
+
+#seconda-barra .navbar-nav>li>a:hover{
+    color: #0069ff;
+}
+
+#lista-prodotti{
+    padding-left: 46px;
+    padding-top: 6px;
+}
+
+#sign-up{
+    padding-right: 22px;
+}
+
+#bottone-azzurro{
+    height: 36px;
+    width: 89px;
+    background-color: transparent;
+    border: 2px solid #0069ff;
+    border-radius: 5px;
+    color: #0069ff;
+    display: inline-block;
+}
+
+#bottone-azzurro:hover{
+    background-color: #0069ff;
+    color: white;
 }
