@@ -1,3 +1,7 @@
+body{
+    font: 400 16px/1.5 Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 #prima-barra{
     min-height:40px;
     background-color: white;
@@ -341,4 +345,305 @@ div.hamburger {
     padding-top: 25px;
     font-size: 15px;
     text-align: center;
+}
+
+#lista-immagini{
+    display: inline-block;
+}
+
+#sezione-immagini{
+    height: 300px;
+    background-color: white;
+}
+
+#innovative-busin{
+    margin-top:70px;
+    opacity: 0.4;
+}
+
+@media screen and (min-width:768px){
+    #docker-png{
+        width: 170px;
+        padding-right: 45px;
+    }
+}
+
+@media screen and (min-width:768px){
+    #gitlab-png{
+        width: 110px;
+    }
+}
+
+@media screen and (min-width:768px){
+    #slack-img-png{
+        width: 172px;
+        padding-right: 45px;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (min-width:768px){
+    #hashicorp-png{
+        width: 150px;
+        padding-top: 7px;
+    }
+}
+
+@media screen and (min-width:768px){
+    #wework-png{
+        width: 160px;
+        padding-right: 40px;
+        padding-top: 11px;
+        margin-left: 26px;
+    }
+}
+
+@media screen and (min-width:768px){
+    #splunk-png{
+        width: 119px;
+        padding-top: 13px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #docker-png{
+        max-width: 100%;
+        padding-right: 145px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #gitlab-png{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+    #slack-img-png{
+        max-width: 100%;
+        padding-right: 145px;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #hashicorp-png{
+        width: 250px;
+        padding-top: 7px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #wework-png{
+        width: 400px;
+        padding-right: 140px;
+        padding-top: 11px;
+        margin-left: 26px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #splunk-png{
+        width: 200px;
+    }
+}
+
+#solution-b{
+    color: #0069ff;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#deploy-title{
+    color: #031b4e;
+    font-size: 38px;
+    margin-top: 40px;
+}
+
+#optimized{
+    color: rgba(3,27,78,.7);
+    font: 400 16px/1.5 Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.container .jumbotron #deploy li a{
+    color: rgba(3,27,78,.5);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.container .jumbotron #deploy li a:hover{
+    color: #031b4e;
+}
+
+#deploy-lista-giu{
+    background-color: pink;
+    color: rgba(3,27,78,.5);
+}
+
+#cinque-deploy{
+    height: 450px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.deploy-list .text-center{
+    margin-bottom: 10px;
+}
+
+.quattro-titoli{
+    color: #031b4e;
+}
+
+#img-kubernetes{
+    width: 45px;
+}
+
+#images-2{
+    width: 38px;
+}
+
+#images-3{
+    width: 41px;
+}
+
+#images-4{
+    width: 40px;
+}
+
+#terza-img{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#quarta-img{
+    margin-top: 20px;
+    float: left;
+}
+
+@media screen all ( max-width:480px) {
+    #prima-img{
+        display: inline-block;
+    }
+    #seconda-img{
+        display: block;
+    }
+    #terza-img{
+        display: block;
+    }
+    #qurta-img{
+        display: block;
+    }
+}
+
+.quattro-paragrafi{
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+}
+
+#designed-dev{
+    color: #031b4e;
+    font-size: 36px;
+}
+
+#build-more{
+    color: rgba(3,27,78,.7);
+    font-size: 20px;
+}
+
+#designed-riga{
+    margin-top: 80px;
+}
+
+@media screen and (max-width:1050px) {
+    #designed-riga{
+        margin-top: 45px;
+    }
+}
+
+#get-started{
+    width: 740px;
+    height: 565px;
+}
+
+/* @media screen and (max-width:1050px) {
+    #designed-riga{
+        margin-top: 45px;
+    }
+} */
+
+#paragrafo-figcap{
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+#sfondo-designed-section{
+    background-color: #f3f5f9;
+}
+
+.cerchio{
+    width: 11px;
+    height: 12px;
+    background-color: none;
+    border-radius: 100px;
+    border: 1px solid #0069ff;
+}
+
+.cerchio:hover{
+    background-color: #0069ff;
+}
+
+#built-for-business{
+    font-size: 36px;
+    color: #031b4e;
+    margin-top: 90px;
+}
+
+#titolo-built{
+    margin-bottom: 60px;
+}
+
+@media screen and(max-width:1050px){
+    #built-for-business{
+        margin-top: 35px;
+    }
+}
+
+#reliable-img{
+    width: 35px;
+    margin-bottom: 12px;
+}
+
+.reliable-titolo{
+    color: #031b4e;
+    font-size: 25px;
+}
+
+.reliable-paragrafo{
+    color: rgba(3,27,78,.7);
+    margin-top: 16px;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.security-linkabili{
+    color: #0069ff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+
+#predictable-img{
+    width: 46px;
+}
+
+#world-img{
+    width: 62px;
+}
+
+#security-img{
+    width: 78px;
 }
