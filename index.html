@@ -109,7 +109,7 @@
                 <!-- fine-sezione-con testo a sinistra -->
                 <!-- sezione-con form -->
                 <div class="row">
-                    <section class="col-xs-12 col-sm-6" id="solo-distanza">
+                    <div class="col-xs-12 col-sm-6" id="solo-distanza">
                         <form id="sezione-form">
                             <h2 class="bold text-center" id="titolo-bold">
                                 <strong>Deploy in seconds</strong>
@@ -124,18 +124,34 @@
                                 <input type="password" class="form-control-mie" id="exampleInputPassword1" placeholder="Create a password">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputFile">File input</label>
-                                <input type="file" id="exampleInputFile">
-                                <p class="help-block">Example block-level help text here.</p>
+                                <button type="submit" class="btn btn-default" id="bottone-blu">
+                                <strong>Create your account</strong>
+                                </button>
                             </div>
-                            <div class="checkbox">
-                                <label>
-                                  <input type="checkbox"> Check me out
-                                </label>
+                            <div id="up-with">
+                                or sign up with
                             </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
+                            <div class="signup-bottoni">
+                                <a href="#">
+                                    <button type="button" class="btn btn-default bottoni-affiancati" id="bottoni-sinistra">
+                                        <img class="mini-icone" src="img/google.png" alt="google">
+                                        <strong>Google</strong>
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button type="button" class="btn btn-default bottoni-affiancati" id="bottoni-destra">
+                                        <img class="mini-icone" src="img/gitub.png" alt="gitub">
+                                        <strong>GitHub</strong>
+                                    </button>
+                                </a>
+                            </div>
+                            <p id="terms-service">
+                                By signing up you agree to the
+                                <a href=""> Terms of Sevice
+                                </a>
+                            </p>
                         </form>
-                    </section>
+                    </div>
                 </div>
             </section>
             <!-- fine-sezione-con form -->
