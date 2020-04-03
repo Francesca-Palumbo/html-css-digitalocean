@@ -93,10 +93,6 @@ body{
     padding-top: 6px;
 }
 
-#sign-up{
-    padding-right: 22px;
-}
-
 #bottone-azzurro{
     height: 36px;
     width: 89px;
@@ -105,6 +101,8 @@ body{
     border-radius: 5px;
     color: #0069ff;
     display: inline-block;
+    margin-top: 14px;
+    margin-right: 61px;
 }
 
 #bottone-azzurro:hover{
@@ -336,9 +334,13 @@ div.hamburger {
     float: right;
 }
 
-.signup-bottoni a button{
+.signup-bottoni button{
     background: #f2f8ff;
     border: 1px solid #0069ff;
+}
+
+.signup-bottoni button:hover{
+    background: #d5e4f7;
 }
 
 #terms-service{
@@ -347,7 +349,7 @@ div.hamburger {
     text-align: center;
 }
 
-#lista-immagini{
+.lista-immagini{
     display: inline-block;
 }
 
@@ -361,7 +363,7 @@ div.hamburger {
     opacity: 0.4;
 }
 
-@media screen and (min-width:768px){
+/* @media screen and (min-width:768px){
     #docker-png{
         width: 170px;
         padding-right: 45px;
@@ -403,9 +405,9 @@ div.hamburger {
         width: 119px;
         padding-top: 13px;
     }
-}
+} */
 
-@media screen and (max-width:767px){
+/* @media screen and (max-width:767px){
     #docker-png{
         max-width: 100%;
         padding-right: 145px;
@@ -446,7 +448,7 @@ div.hamburger {
     #splunk-png{
         width: 200px;
     }
-}
+} */
 
 #solution-b{
     color: #0069ff;

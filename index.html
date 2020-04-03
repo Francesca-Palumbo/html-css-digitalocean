@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <title></title>
+        <title>DigitslOcean</title>
     </head>
     <body>
         <header class="navbar-fixed-top">
             <!-- header-top -->
-            <nav class="navbar navbar-default" id="prima-barra" >
+            <div class="navbar navbar-default" id="prima-barra" >
                 <div class="row">
                     <div class=" col-xs-12">
                         <ul class="list-inline text-left" id="sinistra">
@@ -26,27 +26,27 @@
                         <ul class="list-inline text-right visible-lg " style="text-decoration: none" id="docs-lista">
                             <li> <a class="bs-example-navbar-collapse-1" style="text-decoration: none" href="#"> <strong>Docs</strong></a></li>
                             <li> <a class="bs-example-navbar-collapse-1" style="text-decoration: none" href="#"> <strong>Get Support</strong></a></li>
-                            <li> <a id="bs-example-navbar-collapse-1" style="text-decoration: none" href="#"><strong>Sales</strong></a></li>
-                            <li> <a id="bs-example-navbar-collapse-1" style="text-decoration: none" href="#"> <strong>Sign in</strong></a></li>
+                            <li> <a class="bs-example-navbar-collapse-1" style="text-decoration: none" href="#"><strong>Sales</strong></a></li>
+                            <li> <a class="bs-example-navbar-collapse-1" style="text-decoration: none" href="#"> <strong>Sign in</strong></a></li>
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
             <!-- fine-header-top -->
             <nav class="navbar navbar-default deve-sparire"  id="seconda-barra">
-                    <div class="container-fluid">
+                <div class="container-fluid">
                         <!-- bottone-hamburger -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
                                 <img src="img/logo-digitalocean.svg" alt="logo" id="logo-digital">
-                            </a>
-                        </div>
+                        </a>
+                    </div>
                         <!-- fine-bottone-hamburger -->
                         <!-- prima logo, poi link da collassare -->
                     <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
@@ -72,11 +72,13 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right" id="sign-up">
                             <li>
-                                <a href="#">
-                                <button id="bottone-azzurro" type="button" name="button" class="font-weight-bold"> <strong>Sign Up</strong> </button></a>
+                                <button id="bottone-azzurro" type="button" name="button" class="font-weight-bold">
+                                    <strong>Sign Up</strong>
+                                </button>
                             </li>
                         </ul>
                     </div>
+                </div>
             </nav>
         </header>
             <!-- sezione-con-sfondo-blu t-->
@@ -86,22 +88,21 @@
                 <div class="col-12" id="sezione-nascosta">
                     <img src="img/img-bianco.png" alt="logo-bianco" id="logo-bianco">
                     <span id="scritta-bianco"> <strong>DigitalOcean</strong> </span>
-                    <span id="hamburger-menu">
-                        <p></p>
-                            <div class="hamburger"></div>
-                            <div class="hamburger"></div>
-                            <div class="hamburger"></div>
-                    </span>
+                    <div id="hamburger-menu">
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                    </div>
                 </div>
                 <!--fine sezione-che appare-->
             </div>
                 <!-- sezione-con testo a sinistra  messa dentro a sezione-con-sfondoblu-->
             <section class="container" id="titolo-form-insieme" >
                 <div class="row col-xs-12 col-sm-6">
-                    <h1 id="titolo-large">
+                    <p id="titolo-large">
                         <strong>Welcome to the developer cloud
                         </strong>
-                    </h1>
+                    </p>
                     <p id="paragrafo">
                         We make it simple to launch in the cloud and scale up as you grow-with an intuitive control panel, predictable pricing, team accounts, and more.
                     </p>
@@ -115,10 +116,10 @@
                                 <strong>Deploy in seconds</strong>
                             </h2>
                             <div class="form-group">
-                                <input type="name" class="form-control-mie" id="exampleInputEmail1" placeholder="Full name">
+                                <input type="name" class="form-control-mie"  placeholder="Full name">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control-mie" id="exampleInputEmail1" placeholder="Email address">
+                                <input type="email" class="form-control-mie"  placeholder="Email address">
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control-mie" id="exampleInputPassword1" placeholder="Create a password">
@@ -132,18 +133,14 @@
                                 or sign up with
                             </div>
                             <div class="signup-bottoni">
-                                <a href="#">
-                                    <button type="button" class="btn btn-default bottoni-affiancati" id="bottoni-sinistra">
-                                        <img class="mini-icone" src="img/google.png" alt="google">
-                                        <strong>Google</strong>
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button type="button" class="btn btn-default bottoni-affiancati" id="bottoni-destra">
-                                        <img class="mini-icone" src="img/gitub.png" alt="gitub">
-                                        <strong>GitHub</strong>
-                                    </button>
-                                </a>
+                                <button type="button" class="btn btn-default bottoni-affiancati" id="bottoni-sinistra">
+                                    <img class="mini-icone" src="img/google.png" alt="google">
+                                    <strong>Google</strong>
+                                </button>
+                                <button type="button" class="btn btn-default bottoni-affiancati" id="bottoni-destra">
+                                    <img class="mini-icone" src="img/gitub.png" alt="gitub">
+                                    <strong>GitHub</strong>
+                                </button>
                             </div>
                             <p id="terms-service">
                                 By signing up you agree to the
@@ -160,22 +157,22 @@
             <div class="row" id="sezione-immagini">
                 <h4 class="text-center text-uppercase" id="innovative-busin">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN
                 </h4>
-                <ul class="col-xs-12 col-sm-4 list-inline" id="lista-immagini">
+                <ul class="col-xs-12 col-sm-4 list-inline" class="lista-immagini">
                     <li> <img class="img-responsive list-inline" id="docker-png" src="img/docker.png" alt="docker">
                     </li>
                     <li> <img class="img-responsive list-inline" id="gitlab-png"src="img/gitlab.png" alt="gitlab">
                     </li>
                 </ul>
-                <ul class="col-xs-12 col-sm-4 list-inline">
+                <ul class="col-xs-12 col-sm-4 list-inline" class="lista-immagini">
                     <li> <img class="img-responsive list-inline" id="slack-img-png" src="img/slack-img.png" alt="slack">
                     </li>
                     <li> <img class="img-responsive list-inline" id="hashicorp-png" src="img/hashicorp.png" alt="hashicorp">
                     </li>
                 </ul>
-                <ul class="col-xs-12 col-sm-4 list-inline">
-                    <li> <img class="img-responsive list-inline" id="wework-png" src="img/wework.png" alt="wework">
+                <ul class="col-xs-12 col-sm-4 list-inline" class="lista-immagini">
+                    <li> <img class="img-fluid list-inline" alt="Responsive image" id="wework-png" src="img/wework.png" alt="wework">
                     </li>
-                    <li> <img class="img-responsive" id="splunk-png" src="img/splunk.png" alt="splunk">
+                    <li> <img class="img-fluid list-inline" alt="Responsive image" id="splunk-png" src="img/splunk.png" alt="splunk">
                     </li>
                 </ul>
                 <div class="">
