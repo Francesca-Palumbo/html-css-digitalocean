@@ -116,7 +116,7 @@
                                 <strong>Deploy in seconds</strong>
                             </h2>
                             <div class="form-group">
-                                <input type="name" class="form-control-mie"  placeholder="Full name">
+                                <input type="text" class="form-control-mie"  placeholder="Full name">
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control-mie"  placeholder="Email address">
@@ -154,31 +154,36 @@
         </div>
             <!-- fine-sezione-con form -->
         <div class="container">
-            <div class="row" id="sezione-immagini">
-                <h4 class="text-center text-uppercase" id="innovative-busin">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN
-                </h4>
-                <ul class="col-xs-12 col-sm-4 list-inline" class="lista-immagini">
-                    <li> <img class="img-responsive list-inline" id="docker-png" src="img/docker.png" alt="docker">
-                    </li>
-                    <li> <img class="img-responsive list-inline" id="gitlab-png"src="img/gitlab.png" alt="gitlab">
-                    </li>
-                </ul>
-                <ul class="col-xs-12 col-sm-4 list-inline" class="lista-immagini">
-                    <li> <img class="img-responsive list-inline" id="slack-img-png" src="img/slack-img.png" alt="slack">
-                    </li>
-                    <li> <img class="img-responsive list-inline" id="hashicorp-png" src="img/hashicorp.png" alt="hashicorp">
-                    </li>
-                </ul>
-                <ul class="col-xs-12 col-sm-4 list-inline" class="lista-immagini">
-                    <li> <img class="img-fluid list-inline" alt="Responsive image" id="wework-png" src="img/wework.png" alt="wework">
-                    </li>
-                    <li> <img class="img-fluid list-inline" alt="Responsive image" id="splunk-png" src="img/splunk.png" alt="splunk">
-                    </li>
-                </ul>
-                <div class="">
-                    <a href="#" id="solution-b" class="text-center">
-                        <strong>See business solution</strong>
-                    </a>
+            <div class="row" id="sezione-innovative">
+                <div class="col-xs-12">
+                    <p class="text-center text-uppercase" id="innovative-busin">
+                        INNOVATIVE BUSINESSES TRUST DIGITALOCEAN
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <div class="lista-immagini">
+                        <img class="img-responsive spazio-tra-img" id="docker-png" src="img/docker.png" alt="docker">
+                    </div>
+                    <div class="lista-immagini spazio-tra-img">
+                        <img class="img-responsive"  id="gitlab-png" src="img/gitlab.png" alt="gitlab">
+                    </div>
+                    <div class="lista-immagini spazio-tra-img">
+                        <img class="img-responsive " id="slack-img-png" src="img/slack-img.png" alt="slack">
+                    </div>
+                    <div class="lista-immagini spazio-tra-img">
+                        <img class="img-responsive" id="hashicorp-png" src="img/hashicorp.png" alt="hashicorp">
+                    </div>
+                    <div class="lista-immagini spazio-tra-img">
+                        <img class="img-responsive" id="wework-png" src="img/wework.png" alt="wework">
+                    </div>
+                    <div class="lista-immagini spazio-tra-img">
+                        <img class="img-responsive" id="splunk-png" src=" img/splunk.png" alt="splunk">
+                    </div>
+                </div>
+                <div class=" col-xs-12">
+                    <p href="#" id="solution-b" class="text-center">
+                        <strong>See business solution ></strong>
+                    </p>
                 </div>
             </div>
         </div>
@@ -197,9 +202,10 @@
             </div>
         </div>
             <!-- Deploy and scale seamlessly -->
+            <!-- parte con lista veticale e 4 sezioni a destra -->
         <div class="container">
             <div class="row" id="deploy-lista-giu">
-                <span class="row col-xs-12 col-sm-4" id="cinque-deploy">
+                <div class="col-xs-12 col-sm-4">
                     <ul class="list-unstyled text-center" id="deploy">
                         <li>
                             <a class="deploy-list text-center" href="#">Deploy</a></li>
@@ -216,27 +222,28 @@
                             <a class="deploy-list text-center" href="#">Monitor</a>
                         </li>
                     </ul>
-                </span>
-                <span class="rom col-xs-6 col-sm-4" id="prima-img">
-                    <img id="img-kubernetes" src="img/giusta-kubernetes.png" alt="kubernetes">
-                    <h4 class="quattro-titoli">
-                        <strong>Kubernetes in minutes</strong>
-                    </h4>
-                    <p class="quattro-paragrafi">
-                        Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
-                    </p>
-                </span>
-                <span class="rom col-xs-6 col-sm-4" id="seconda-img">
-                    <img id="images-2" src="img/images-2.png" alt="">
-                    <h4  class="quattro-titoli">
-                        <strong>Flexible compute types</strong>
-                    </h4>
-                    <p class="quattro-paragrafi">
-                        With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.
-                    </p>
-                </span>
-                <div class="row">
-                    <span class="rom col-xs-6 col-sm-4" id="terza-img">
+                </div>
+                <div class="col-sm-8 col-xs-12">
+                    <div class="col-xs-6">
+                        <img id="img-kubernetes" src="img/giusta-kubernetes.png" alt="kubernetes">
+                        <h4 class="quattro-titoli">
+                            <strong>Kubernetes in minutes</strong>
+                        </h4>
+                        <p class="quattro-paragrafi">
+                            Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
+                        </p>
+                    </div>
+                    <div class="col-xs-6 con-spazio">
+                        <img id="images-2" src="img/images-2.png" alt="">
+                        <h4  class="quattro-titoli">
+                            <strong>Flexible compute types</strong>
+                        </h4>
+                        <p class="quattro-paragrafi">
+
+                            With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.
+                        </p>
+                    </div>
+                    <div class="col-xs-6 con-spazio">
                         <img id="images-3" src="img/images-3.png" alt="">
                         <h4  class="quattro-titoli">
                             <strong>1-Click App Marketplace</strong>
@@ -244,8 +251,8 @@
                         <p class="quattro-paragrafi">
                             Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.
                         </p>
-                    </span>
-                    <span class="rom col-xs-6 col-sm-4" id="quarta-img">
+                    </div>
+                    <div class="col-xs-6">
                         <img id="images-4" src="img/images-4.png" alt="">
                         <h4 class="quattro-titoli">
                             <strong>Global availability</strong>
@@ -253,14 +260,15 @@
                         <p class="quattro-paragrafi">
                             Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.
                         </p>
-                    </span>
+                    </div>
                 </div>
+
             </div>
         </div>
             <!-- FINE-Deploy and scale seamlessly -->
             <!-- Designed for developers -->
-        <div class="container" id="sfondo-designed-section">
-            <div class="row">
+        <div class="container-fluid" >
+            <div class="row" id="sfondo-designed-section">
                 <div class="col-xs-12 text-center" id="designed-riga">
                     <h2 id="designed-dev">
                         <strong>Designed for developers</strong>
@@ -268,10 +276,10 @@
                     <p id="build-more">
                         Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
                     </p>
-                    <img class="text-center" id="get-started"src="img/get-started-with.jpg" alt="get-started">
-                    <figcaption class="text-center" id="paragrafo-figcap">
+                    <img class="text-center" id="get-started" src="img/get-started-with.jpg" alt="get-started">
+                    <p class="text-center" id="paragrafo-figcap">
                         Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications.
-                    </figcaption>
+                    </p>
                     <ul class="list-inline" id="pallini-spazio">
                         <li class="cerchio"> <a href="#"></a> </li>
                         <li class="cerchio"> <a href="#"></a> </li>
@@ -283,59 +291,297 @@
             </div>
         </div>
             <!-- Designed for developers -->
-            <!-- Designed for developers -->
+            <!-- Built for business parte con le 4 sezioni -->
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center" id="built-for-business">
                     <h1 id="titolo-built"><strong>Built for business</strong>
                     </h1>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-sm-6 col-md col-lg-3 ">
-                    <img src="img/reliable.png" alt="reliable" id="reliable-img">
-                    <h4 class="relible-titolo"><strong>Reliable platform</strong>
-                    </h4>
-                    <p class="reliable-paragrafo">
-                        More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
-                    </p>
-                    <a class="security-linkabili" href="#"> <strong>Security ></strong>
-                    </a>
+                    <div class="contenitore-quattro">
+                    <div class="col-xs-6 col-md-3 classe-spazio">
+                        <img src="img/reliable.png" alt="reliable" id="reliable-img">
+                        <h4 class="relible-titolo"><strong>Reliable platform</strong>
+                        </h4>
+                        <p class="reliable-paragrafo">
+                            More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
+                        </p>
+                        <a class="security-linkabili" href="#"> <strong>Security ></strong>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 classe-spazio">
+                        <img src="img/predictable.png" alt="reliable" id="predictable-img">
+                        <h4 class="relible-titolo"><strong>Predictable pricing</strong>
+                        </h4>
+                        <p class="reliable-paragrafo">
+                            Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.
+                        </p>
+                        <a class="security-linkabili" href="#"> <strong>Pricyng ></strong>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 classe-spazio">
+                        <img src="img/world-class.png" alt="reliable" id="world-img">
+                        <h4 class="relible-titolo"><strong>World-class service</strong>
+                        </h4>
+                        <p class="reliable-paragrafo">
+                            Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.
+                        </p>
+                        <a class="security-linkabili" href="#"> <strong>Support ></strong>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 classe-spazio">
+                        <img src="img/security.png" alt="reliable" id="security-img">
+                        <h4 class="relible-titolo"><strong>Security and compliance</strong>
+                        </h4>
+                        <p class="reliable-paragrafo">
+                            Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.
+                        </p>
+                        <a class="security-linkabili" href="#"> <strong>Compliance ></strong>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-sm-6 col-md col-lg-3 ">
-                    <img src="img/predictable.png" alt="reliable" id="predictable-img">
-                    <h4 class="relible-titolo"><strong>Predictable pricing</strong>
-                    </h4>
-                    <p class="reliable-paragrafo">
-                        Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.
+            </div>
+        </div>
+        <!-- Built for business parte con le 4 sezioni -->
+        <!-- sezione sfonfo blu e planisfero -->
+        <div class="container-fluid">
+            <div class="row" id="sfondo-1">
+                <div class="col-xs-12">
+                    <p id="paragrafo-planisfero">
+                        <strong>
+                            Service your customers around the world from 12 data centers.
+                        </strong>
                     </p>
-                    <a class="security-linkabili" href="#"> <strong>Pricyng ></strong>
-                    </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-sm-6 col-md col-lg-3 ">
-                    <img src="img/world-class.png" alt="reliable" id="world-img">
-                    <h4 class="relible-titolo"><strong>World-class service</strong>
-                    </h4>
-                    <p class="reliable-paragrafo">
-                        Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.
-                    </p>
-                    <a class="security-linkabili" href="#"> <strong>Support ></strong>
-                    </a>
+                <div class="col-xs-12 col-md-6" id="tutte-uguali">
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>ams2</strong> </div>
+                        <div class="seconda-lista">Amsterdam, Netherlands</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>ams2</strong> </div>
+                        <div class="seconda-lista">Amsterdam, Netherlands</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>blr1</strong> </div>
+                        <div class="seconda-lista">Bangalore, India</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>fra1</strong> </div>
+                        <div class="seconda-lista">Frankfurt, Germany</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>lon1</strong> </div>
+                        <div class="seconda-lista">London, UK</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>nyc1</strong> </div>
+                        <div class="seconda-lista">New York, USA</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-sm-6 col-md col-lg-3 ">
-                    <img src="img/security.png" alt="reliable" id="security-img">
-                    <h4 class="relible-titolo"><strong>Security and compliance</strong>
-                    </h4>
-                    <p class="reliable-paragrafo">
-                        Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.
-                    </p>
-                    <a class="security-linkabili" href="#"> <strong>Compliance ></strong>
-                    </a>
+                <div class="col-xs-12 col-md-6">
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>nyc1</strong> </div>
+                        <div class="seconda-lista">New York, USA</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>nyc1</strong> </div>
+                        <div class="seconda-lista">New York, USA</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>sf01</strong> </div>
+                        <div class="seconda-lista">San Fransisco, USA</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>sf01</strong> </div>
+                        <div class="seconda-lista">San Fransisco, USA</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>sgp1</strong> </div>
+                        <div class="seconda-lista">Singapore</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
+                    <div class="liste-uguali">
+                        <div class="prima-lista"> <strong>tor1</strong> </div>
+                        <div class="seconda-lista">Toronto, Canada</div>
+                        <div class="terza-lista">
+                            <a class="colori-link" href="#">Test Speed > </a>
+                        </div>
+                    </div>
                 </div>
+
 
             </div>
 
         </div>
+        <!-- FINE-sezione sfonfo blu e planisfero -->
+        <!-- 2 grigio con immagine grande -->
+        <div class="container-fluid" >
+            <div class="row" id="sfondo-designed-section-2">
+                <div class="col-xs-12 text-center" id="designed-riga-2">
+                    <h2 id="designed-dev-2">
+                        <strong>Development teams love DigitalOcean</strong>
+                    </h2>
+                    <p id="build-more-2">
+                        Easily organize your infrastructure with Projects. And with <a id="teams" href="#">Teams</a>, everyone can get their own account, with just the privileges they need to do their jobs.
+                    </p>
+                    <div id="sezione-immagine">
+                        <img id="immagine-sezione-2" src="img/rockerbox-logo.png" alt="rockerbox-logo">
+                        <p id="paragrafo-sezione-2">
+                            "We have been able to make scaling the technical infrastructure of our business cost effective and efficient."
+                        </p>
+                        <p>Rick O'Toole
+                        </p>
+                        <p>Co-founder and CTO
+                        </p>
+                        <p id="paragrafo-link">
+                            <a id="link-sezione-2" href="#"> <strong>Read story ></strong> </a>
+                        </p>
 
-            <!-- Designed for developers -->
+                    </div>
+                    <ul class="list-inline" id="tre-pallini">
+                        <li class="cerchio"> <a href="#"></a> </li>
+                        <li class="cerchio"> <a href="#"></a> </li>
+                        <li class="cerchio"> <a href="#"></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- FINE-2 grigio con immagine grande -->
+        <!-- piccola sezione-sfondo-pesci -->
+        <div class="container-fluid" id="relative-posiz">
+            <div class="row" id="sfondo-pesci">
+                <div class="col-xs-12">
+                    <p id="started-now" class="text-center"> <strong>Get started now.</strong>
+                    </p>
+                    <button id="bottone-bianco" type="button" name="button">
+                        <strong>Create your account</strong>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--FINE piccola sezione-sfondo-pesci -->
+        <!--5 colonne -->
+        <div class="container-fluid" id="ultimo-blu">
+            <div class="row">
+                <div class="solo-margini">
+                    <div class="col-xs-12 col-md-5">
+                        <div class="col-xs-6">
+                            <ul class="list-unstyled">
+                                <li class="titolo-bianco">Community
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled" id="prima-lista-blu">
+                                <li> <a href="#">Tutorials</a> </li>
+                                <li> <a href="#">Meetups</a> </li>
+                                <li> <a href="#">Q&A</a> </li>
+                                <li> <a href="#">Write for DOnations</a> </li>
+                                <li> <a href="#">plets for DemosDro</a> </li>
+                                <li> <a href="#">Hatch Startup Program</a> </li>
+                                <li> <a href="#">Shop Swag</a> </li>
+                                <li> <a href="#">Research Program</a> </li>
+                                <li> <a href="#">Currents Research</a> </li>
+                                <li> <a href="#">Open Source</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-6">
+                            <ul class="list-unstyled">
+                                <li class="titolo-bianco">Products
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled" id="seconda-lista-blu">
+                                <li> <a href="#">Products Overview</a> </li>
+                                <li> <a href="#">Droplets</a> </li>
+                                <li> <a href="#">Managed Databases</a> </li>
+                                <li> <a href="#">Spaces</a> </li>
+                                <li> <a href="#">Marketplace</a> </li>
+                                <li> <a href="#">Load Balancers</a> </li>
+                                <li> <a href="#">Block Storage</a> </li>
+                                <li> <a href="#">Tools & Integrations</a> </li>
+                                <li> <a href="#">API</a> </li>
+                                <li> <a href="#">Pricing</a> </li>
+                                <li> <a href="#">Documentation</a> </li>
+                                <li> <a href="#">Release Notes</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <div class="col-xs-4">
+                            <ul class="list-unstyled">
+                                <li class="titolo-bianco">Company
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled" id="terza-lista-blu">
+                                <li> <a href="#">About</a> </li>
+                                <li> <a href="#">Leadership</a> </li>
+                                <li> <a href="#">Blog</a> </li>
+                                <li> <a href="#">Careers</a> </li>
+                                <li> <a href="#">Referral Program</a> </li>
+                                <li> <a href="#">Press</a> </li>
+                                <li> <a href="#">Legal & Security</a> </li>
+                            </ul>
+                        <div class="col-xs-4">
+                            <ul class="list-unstyled">
+                                <li class="titolo-bianco">Solution
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled" id="quarta-lista-blu">
+                                <li> <a href="#">Web & Mobile Apps</a> </li>
+                                <li> <a href="#">Website Hosting</a> </li>
+                                <li> <a href="#">Big Data</a> </li>
+                                <li> <a href="#">Managed Services</a> </li>
+                                <li> <a href="#">Business Solutions</a> </li>
+                            </ul>
+                        <div class="col-xs-4">
+                            <ul class="list-unstyled">
+                                <li class="titolo-bianco">Contact
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled" id="quinta-lista-blu">
+                                <li> <a href="#">Get Support</a> </li>
+                                <li> <a href="#">trouble Signing In?</a> </li>
+                                <li> <a href="#">Sales</a> </li>
+                                <li> <a href="#">report Abuse</a> </li>
+                                <li> <a href="#">System Status</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
+
+            </div>
+        </div>
     </body>
 </html>

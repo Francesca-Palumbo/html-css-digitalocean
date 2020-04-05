@@ -7,9 +7,7 @@ body{
     background-color: white;
     margin-bottom: 0;
     border-color: #e7e7e7;
-    border-radius: none;
 }
-
 
 #new-bottone{
     background-color: #00d7d2;
@@ -126,7 +124,7 @@ body{
 }
 
 #sezione-con-sfondoblu{
-    height: 920px;
+    height: 940px;
     background-image: url('../img/background.jpg');
     background-size: cover;
 }
@@ -195,7 +193,6 @@ div.hamburger {
     height: 580px;
     background-color: white;
     padding: 32px;
-    font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
     border-radius: 7px;
 }
@@ -258,7 +255,6 @@ div.hamburger {
     border-radius: 5px;
     -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
     transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
-    font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
 }
 
@@ -349,112 +345,40 @@ div.hamburger {
     text-align: center;
 }
 
-.lista-immagini{
-    display: inline-block;
-}
+/* FINE form sezione sfondo-blu*/
 
-#sezione-immagini{
+#sezione-innovative{
     height: 300px;
     background-color: white;
 }
 
 #innovative-busin{
     margin-top:70px;
+    font-size: 17px;
     opacity: 0.4;
 }
-
-/* @media screen and (min-width:768px){
-    #docker-png{
-        width: 170px;
-        padding-right: 45px;
-    }
-}
-
-@media screen and (min-width:768px){
-    #gitlab-png{
-        width: 110px;
-    }
-}
-
-@media screen and (min-width:768px){
-    #slack-img-png{
-        width: 172px;
-        padding-right: 45px;
-        padding-top: 5px;
-    }
-}
-
-@media screen and (min-width:768px){
-    #hashicorp-png{
-        width: 150px;
-        padding-top: 7px;
-    }
-}
-
-@media screen and (min-width:768px){
-    #wework-png{
-        width: 160px;
-        padding-right: 40px;
-        padding-top: 11px;
-        margin-left: 26px;
-    }
-}
-
-@media screen and (min-width:768px){
-    #splunk-png{
-        width: 119px;
-        padding-top: 13px;
-    }
-} */
-
-/* @media screen and (max-width:767px){
-    #docker-png{
-        max-width: 100%;
-        padding-right: 145px;
-    }
-}
-
-@media screen and (max-width:767px){
-    #gitlab-png{
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width:767px){
-    #slack-img-png{
-        max-width: 100%;
-        padding-right: 145px;
-        padding-top: 5px;
-    }
-}
-
-@media screen and (max-width:767px){
-    #hashicorp-png{
-        width: 250px;
-        padding-top: 7px;
-    }
-}
-
-@media screen and (max-width:767px){
-    #wework-png{
-        width: 400px;
-        padding-right: 140px;
-        padding-top: 11px;
-        margin-left: 26px;
-    }
-}
-
-@media screen and (max-width:767px){
-    #splunk-png{
-        width: 200px;
-    }
-} */
 
 #solution-b{
     color: #0069ff;
     text-align: center;
     font-size: 16px;
     text-decoration: none;
+}
+
+.lista-immagini{
+    display: inline-block;
+    width: calc(100%/2 - 4px);
+    vertical-align: middle;
+}
+
+.spazio-tra-img{
+    padding-right: 55px;
+}
+
+@media screen and ( min-width:768px ) {
+    .lista-immagini{
+        width: calc(100%/6 - 4px);
+    }
 }
 
 #deploy-title{
@@ -465,28 +389,31 @@ div.hamburger {
 
 #optimized{
     color: rgba(3,27,78,.7);
-    font: 400 16px/1.5 Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-bottom: 50px;
+    font-size: 20px;
 }
 
-.container .jumbotron #deploy li a{
+/*  parte con lista veticale e 4 sezioni a destra */
+
+#deploy{
+    text-align: left;
+    height: 200px;
+    width: 40%;
+    margin-left: 168px;
+}
+
+#deploy li{
+    padding: 20 40 20 50px;
+}
+
+#deploy li a{
     color: rgba(3,27,78,.5);
     text-decoration: none;
     font-size: 19px;
 }
 
-.container .jumbotron #deploy li a:hover{
+#deploy li a:hover{
     color: #031b4e;
-}
-
-#deploy-lista-giu{
-    background-color: pink;
-    color: rgba(3,27,78,.5);
-}
-
-#cinque-deploy{
-    height: 450px;
-    padding-top: 20px;
-    text-decoration: none;
 }
 
 .deploy-list .text-center{
@@ -497,12 +424,16 @@ div.hamburger {
     color: #031b4e;
 }
 
+.con-spazio{
+    padding-bottom: 40px;
+}
+
 #img-kubernetes{
     width: 45px;
 }
 
 #images-2{
-    width: 38px;
+    width: 36px;
 }
 
 #images-3{
@@ -513,35 +444,12 @@ div.hamburger {
     width: 40px;
 }
 
-#terza-img{
-    margin-top: 20px;
-    display: inline-block;
-}
-
-#quarta-img{
-    margin-top: 20px;
-    float: left;
-}
-
-@media screen all ( max-width:480px) {
-    #prima-img{
-        display: inline-block;
-    }
-    #seconda-img{
-        display: block;
-    }
-    #terza-img{
-        display: block;
-    }
-    #qurta-img{
-        display: block;
-    }
-}
-
 .quattro-paragrafi{
     color: rgba(3,27,78,.7);
     font-size: 16px;
 }
+
+/* parte con immagine quadrato */
 
 #designed-dev{
     color: #031b4e;
@@ -551,6 +459,7 @@ div.hamburger {
 #build-more{
     color: rgba(3,27,78,.7);
     font-size: 20px;
+    padding-bottom: 40px;
 }
 
 #designed-riga{
@@ -563,25 +472,6 @@ div.hamburger {
     }
 }
 
-#get-started{
-    width: 740px;
-    height: 565px;
-}
-
-/* @media screen and (max-width:1050px) {
-    #designed-riga{
-        margin-top: 45px;
-    }
-} */
-
-#paragrafo-figcap{
-    color: rgba(3,27,78,.7);
-    font-size: 16px;
-    text-align: center;
-    margin-top: 20px;
-    padding: 30px;
-}
-
 #sfondo-designed-section{
     background-color: #f3f5f9;
 }
@@ -589,7 +479,6 @@ div.hamburger {
 .cerchio{
     width: 11px;
     height: 12px;
-    background-color: none;
     border-radius: 100px;
     border: 1px solid #0069ff;
 }
@@ -597,6 +486,8 @@ div.hamburger {
 .cerchio:hover{
     background-color: #0069ff;
 }
+
+/* parte con i 4 div uno accanto all'altro */
 
 #built-for-business{
     font-size: 36px;
@@ -608,7 +499,7 @@ div.hamburger {
     margin-bottom: 60px;
 }
 
-@media screen and(max-width:1050px){
+@media screen and (max-width:1050px){
     #built-for-business{
         margin-top: 35px;
     }
@@ -633,9 +524,15 @@ div.hamburger {
 
 .security-linkabili{
     color: #0069ff;
-    text-decoration: none;
-    list-style: none;
     font-size: 16px;
+}
+
+.classe-spazio a:hover{
+    text-decoration: none;
+}
+
+.classe-spazio{
+    margin-bottom: 70px;
 }
 
 #predictable-img{
@@ -648,4 +545,270 @@ div.hamburger {
 
 #security-img{
     width: 78px;
+}
+
+/* parte con planisfero */
+
+#sfondo-1{
+    background-color: #031b4e;
+    background-image: url('../img/planisfero.svg');
+    background-repeat: no-repeat;
+    height: 550px;
+}
+@media screen and ( max-width:767px) {
+    #sfondo-1{
+        height: 955px;
+    }
+    #tutte-uguali{
+        margin-bottom: 40px;
+    }
+}
+
+#paragrafo-planisfero{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding: 50px;
+}
+
+@media screen and (max-width:767px) {
+    #paragrafo-planisfero{
+        font-size: 25px;
+    }
+}
+
+.liste-uguali{
+    padding-left: 50px;
+    padding-bottom: 7px;
+}
+
+.prima-lista{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.seconda-lista{
+    color: #fff;
+    opacity: .6;
+    font-size: 15px;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+}
+
+.terza-lista{
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+}
+
+.colori-link{
+    color: #00d7d2;
+    text-decoration: none;
+}
+
+.colori-link:hover{
+    color: #0069ff;
+    text-decoration: none;
+}
+
+.liste-uguali::after{
+    content: ' ';
+    width: 93%;
+    height: 1px;
+    display: block;
+    background-color:hsla(0,0%,100%,.2);
+    margin-top: 10px;
+}
+
+/* 2 grigio con immagine grande */
+
+#sfondo-designed-section-2{
+    background-color: #f3f5f9;
+}
+
+#designed-riga-2{
+    margin-top: 80px;
+}
+
+#designed-dev-2{
+    color: #031b4e;
+    font-size: 36px;
+}
+
+#build-more-2{
+    padding-top: 23px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#sezione-immagine{
+    width: 55%;
+    margin: auto;
+    background-color: white;
+}
+
+#immagine-sezione-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 200px;
+}
+
+#paragrafo-sezione-2{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(3,27,78,.7);
+    width: 90%;
+    text-align: center;
+}
+
+@media screen and (max-width:1050px) {
+    #designed-riga-2{
+        margin-top: 45px;
+    }
+}
+
+#link-sezione-2{
+    color: #0069ff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#link-sezione-2:hover{
+    color: #005fe6;
+}
+
+#teams{
+    color: #0069ff;
+    text-decoration: underline;
+}
+
+#teams:hover{
+    color: #005fe6;
+}
+
+#paragrafo-link{
+    padding-bottom: 50px;
+}
+
+.cerchio{
+    width: 11px;
+    height: 12px;
+    border-radius: 100px;
+    border: 1px solid #0069ff;
+}
+
+.cerchio:hover{
+    background-color: #0069ff;
+}
+
+#tre-pallini{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* piccola sazione-sfondo-pesci */
+
+#sfondo-pesci{
+    height: 250px;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+#started-now{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#relative-posiz{
+    position: relative;
+}
+
+#bottone-bianco{
+    background-color: #fff;
+    color: #0069ff;
+    width: 221px;
+    height: 53px;
+    font-size: 17px;
+    border-radius: 7px;
+    border:none;
+    margin: auto;
+    position: absolute;
+    top: 82%;
+    left: 42%;
+    transform: translate( -50% ; -50%);
+}
+
+/* 5 colonne */
+#ultimo-blu{
+    background-color: #010e28;
+    height: 600px;
+}
+
+.solo-margini{
+    width: 70%;
+    margin: auto;
+    height: 500px;
+}
+
+.titolo-bianco{
+    font-size: 20px;
+    color: #fff;
+}
+
+.colore-liste{
+    font-size: 20px;
+}
+
+#prima-lista-blu li{
+    color: hsla(0,0%,100%,.5);
+}
+
+#prima-lista-blu li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#seconda-lista-blu li{
+    color: hsla(0,0%,100%,.5);
+}
+
+#seconda-lista-blu li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#terza-lista-blu li{
+    color: hsla(0,0%,100%,.5);
+}
+
+#terza-lista-blu li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#quarta-lista-blu li{
+    color: hsla(0,0%,100%,.5);
+}
+
+#quarta-lista-blu li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#quinta-lista-blu li{
+    color: hsla(0,0%,100%,.5);
+}
+
+#quinta-lista-blu li a:hover{
+    text-decoration: none;
+    color: #fff;
 }
