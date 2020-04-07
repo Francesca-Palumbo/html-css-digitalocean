@@ -466,6 +466,10 @@ div.hamburger {
     margin-top: 80px;
 }
 
+#get-started{
+    margin: auto;
+}
+
 @media screen and (max-width:1050px) {
     #designed-riga{
         margin-top: 45px;
@@ -811,4 +815,13 @@ div.hamburger {
 #quinta-lista-blu li a:hover{
     text-decoration: none;
     color: #fff;
+}
+
+#quarta-lista-blu{
+    float: left;
+    display: inline;
+}
+
+#quinta-lista-blu{
+    float: left;
 }
